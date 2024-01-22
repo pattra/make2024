@@ -15,6 +15,9 @@ function PostJames() {
       <h3>Turning a New Leaf</h3>
       <h4>When a retired ranger adventurer asks for a favor to save his companion, it is a race against time to save his dearest friend. (An adventure suitable for levels 1-5)</h4>
       <p>
+        <a href={pdf}><i>Download the full PDF here!</i></a>
+      </p>
+      <p>
         Pushing past the sturdy oaken door to escape the stormy night, the party embraces the warmth of the tavern in a back alley of Neverwinter. Greeted by the aromas of the kitchen and the clattering of a house full of patrons, the party takes a seat and gestures for a round. The hearth glows warm to restore all guests fleeing the icy rains.
       </p>
       <p>
@@ -28,9 +31,6 @@ function PostJames() {
       </p>
       <p>
         Softening now, the bard spoke of the endless verdant trees and vale for the beast to traverse. As the bard breathed this image: a canopy of leaves, beams of sun and starlight drifting to warm faces below, a hallowed ground for heroes and fae, the party felt a cool rush of wind as they find themselves standing on soft grass in the glade of Arvandor; a realm far from the taverns warmth.
-      </p>
-      <p>
-        <a href={pdf}><i>Download the full PDF here!</i></a>
       </p>
     </div>
   </>

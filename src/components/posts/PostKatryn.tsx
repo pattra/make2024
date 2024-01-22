@@ -12,7 +12,7 @@ function PostKatryn() {
         For this make-a-thon Katryn created a neat CSS animation inspired by photosynthesis.
       </p>
       <p>
-        Check out her <a href="https://codepen.io/katrynmc/full/ZEPLzoM">CodePen</a> for the source & a full-screen view!
+        Check out her <a href="https://codepen.io/katrynmc/full/ZEPLzoM">CodePen</a> for the source & a full-screen view. Embedded preview below:
       </p>
     </div>
     <div>
