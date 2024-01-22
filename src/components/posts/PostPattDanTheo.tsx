@@ -8,7 +8,7 @@ function PostPattDanTheo() {
     <div>
       <h3>Dan, Pattra, & Theo: A text-based adventure game</h3>
       <p>
-        <i>Editor's Note:</i> Dan, Theo, and I each individually have always had deep fascinations with making video games. For this make-a-thon, in "classic fashion," we decided to be extremely ambitious and bite off way more than we could chew.
+        <i>Editor's Note:</i> Dan, Theo, and I have always individually had deep fascinations with making video games. For this make-a-thon, in "classic fashion," we decided to band together, be extremely ambitious, and bite off way more than we could chew.
       </p>
       <p>
         Dan & I wanted to make a text adventure (but with graphics and music, lol) where the main character has to keep a journal. We immediately started thinking about ship's logs, and came up with the idea of an eldritch mystery upon the high seas. We wanted a world with characters who had their own agendas--where if you go through life day by day, they will change the course of the world's history with or without you. Theo then graciously lent us his musical talents to help bring this world to life.
@@ -37,6 +37,9 @@ function PostPattDanTheo() {
       <p>
         <img className="image-container" src={img01} /><br />
         A wild and free FigJam board. Where the magic happens...
+      </p>
+      <p>
+        You can check out the source code here: <a href="https://github.com/dfreeman/new-leaf">https://github.com/dfreeman/new-leaf</a>
       </p>
     </div>
   </>
