@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     path: "/zine/:id",
     element: <Zine />,
   }
-]);
+], { basename: '/make2024' });
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
