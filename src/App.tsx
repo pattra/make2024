@@ -29,7 +29,7 @@ function App() {
           <p>
             Our theme this year? <b>Turning a new leaf!</b>
           </p>
-          <button onClick={() => { navigate('/zine') }}>
+          <button className="splash-button" onClick={() => { navigate('/zine') }}>
             Let's go!
           </button>
         </div>

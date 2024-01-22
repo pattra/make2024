@@ -5,10 +5,9 @@ import { useState } from 'react';
 
 function Sidebar() {
   const navigate = useNavigate();
-  const [displayLocation, setDisplayLocation] = useState(location);
+  const [displayLocation] = useState(location);
 
-  const navItems = artists.map(artist => {
-    // @ts-ignore
+  const navItems = artists.map((artist, i) => {
     const path = `/zine/${artist.id}`;
     let isActive = false;
 
@@ -17,7 +16,12 @@ function Sidebar() {
     }
 
     return (
-      <button className={isActive ? 'button-active' : ''} style={{width: '100%', marginBottom: '4px'}} onClick={() => navigate(path)}>
+      <button
+        className={isActive ? 'button-active' : ''}
+        style={{width: '100%', marginBottom: '4px'}}
+        onClick={() => navigate(path)}
+        key={`sidebar-item-${i}`}
+      >
         {artist.name}
       </button>
     )

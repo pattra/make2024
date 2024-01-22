@@ -11,12 +11,17 @@
   margin-top: -32px;
 }
 
+.splash-button {
+  color: white;
+  margin-top: 16px;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 812px) {
     #root {
       width: 100%;
-      padding: 0;
+      padding: 16px;
     }
 
     .splash-title {
@@ -24,7 +29,8 @@
     }
 
     .card {
-      width: 90%;
+      font-size: 1em;
+      width: 80%;
       padding: 16px;
       margin: 0 auto;
       margin-top: 16px;

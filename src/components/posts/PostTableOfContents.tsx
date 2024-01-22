@@ -5,10 +5,9 @@ import { useState } from 'react';
 
 function PostTableOfContents() {
   const navigate = useNavigate();
-  const [displayLocation, setDisplayLocation] = useState(location);
+  const [displayLocation] = useState(location);
 
-  const navItems = artists.map(artist => {
-    // @ts-ignore
+  const navItems = artists.map((artist, i) => {
     const path = `/zine/${artist.id}`;
     let isActive = false;
 
@@ -22,7 +21,9 @@ function PostTableOfContents() {
         style={{ width: '100%', marginBottom: '4px' }}
         onClick={() => {
           navigate(path);
-        }}>
+        }}
+        key={`mobile-sidebar-item-${i}`}
+      >
         {artist.name}
       </button>
     )

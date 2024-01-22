@@ -28,11 +28,11 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .body {
-    width: 80%;
-    margin: 0 auto;
-    height: 80vh;
+    width: 100%;
+    height: 75vh;
     overflow-y: scroll;
     font-size: .8em;
+    margin: 0;
   }
 
   .mobile-button {
