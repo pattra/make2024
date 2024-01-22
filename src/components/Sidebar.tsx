@@ -5,11 +5,11 @@ import { useState } from 'react';
 
 function Sidebar() {
   const navigate = useNavigate();
+  const [displayLocation, setDisplayLocation] = useState(location);
+
   const navItems = artists.map(artist => {
     // @ts-ignore
     const path = `/zine/${artist.id}`;
-
-    const [displayLocation, setDisplayLocation] = useState(location);
     let isActive = false;
 
     if (displayLocation.pathname.includes(artist.id)) {
@@ -26,6 +26,9 @@ function Sidebar() {
   return (
     <>
       <div className="sidebar">
+      <button className={displayLocation.pathname === '/zine' || displayLocation.pathname === '/zine/' ? 'button-active' : ''} style={{width: '100%', marginBottom: '4px'}} onClick={() => navigate('/zine')}>
+        🍃
+      </button>
         {navItems}
       </div>
     </>

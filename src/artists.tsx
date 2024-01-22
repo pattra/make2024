@@ -6,6 +6,7 @@ import PostDevers from "./components/posts/PostDevers";
 import PostHelen from "./components/posts/PostHelen";
 import PostJames from "./components/posts/PostJames";
 import PostJas from "./components/posts/PostJas";
+import PostKatryn from "./components/posts/PostKatryn";
 import PostLindsey from "./components/posts/PostLindsey";
 import PostLulu from "./components/posts/PostLulu";
 import PostPattDanTheo from "./components/posts/PostPattDanTheo";
@@ -36,7 +37,7 @@ export default [
   },
   {
     id: 'patt_dan_theo',
-    name: 'Dan',
+    name: 'Dan, Pattra, & Theo',
     component: PostPattDanTheo,
   },
   {
@@ -60,6 +61,11 @@ export default [
     component: PostJas,
   },
   {
+    id: 'katryn',
+    name: 'Katryn',
+    component: PostKatryn,
+  },
+  {
     id: 'lindsey',
     name: 'Lindsey',
     component: PostLindsey,
@@ -70,11 +76,6 @@ export default [
     component: PostLulu,
   },
   {
-    id: 'patt_dan_theo',
-    name: 'Pattra',
-    component: PostPattDanTheo,
-  },
-  {
     id: 'rys',
     name: 'Rys',
     component: PostRys,
@@ -83,11 +84,6 @@ export default [
     id: 'steph',
     name: 'Steph',
     component: PostSteph,
-  },
-  {
-    id: 'patt_dan_theo',
-    name: 'Theo',
-    component: PostPattDanTheo,
   },
   {
     id: 'tmarz',

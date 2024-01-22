@@ -14,6 +14,9 @@ function Zine() {
 
   useEffect(() => {
     if (location !== displayLocation) setTransistionStage("fadeOut");
+    
+    const bodyEl = document.querySelector('#zine-body');
+    bodyEl?.scrollTo(0, 0)
   }, [location, displayLocation]);
 
   const extractedId = displayLocation.pathname.split('/').slice(-1)[0];

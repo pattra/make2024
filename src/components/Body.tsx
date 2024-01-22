@@ -7,7 +7,7 @@ function Body({ artistId, mobileTocOpen }: { artistId: string, mobileTocOpen: bo
   let PostComponent = mobileTocOpen ? PostTableOfContents : PostDefault;
 
   if (!mobileTocOpen) {
-    const hasArtistId = artistId !== undefined;
+    const hasArtistId = !!artistId;
     if (hasArtistId) {
       const artistIndex = artists.findIndex(artist => {
         return artist.id === artistId;
@@ -19,7 +19,7 @@ function Body({ artistId, mobileTocOpen }: { artistId: string, mobileTocOpen: bo
 
   return (
     <>
-      <div className="body">
+      <div id="zine-body" className="body">
         <PostComponent />
       </div>
     </>
