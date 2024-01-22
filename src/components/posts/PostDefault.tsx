@@ -10,10 +10,11 @@ function PostDefault() {
       The theme was intentionally abstract, to give people as much freedom as possible in interpreting it however they wanted to. Whether they took the theme to mean journaling, appreciating nature, or just learning new skills themselves -- we really covered the spectrum!
     </p>
     <p>
-      At the end of the weekend, we all met up on Discord and shared our work. The energy was absolutely electric, and I was so impressed with the group's talent and creativity. I hope you enjoy browsing through everyone's creations!
+      At the end of the weekend, we all met up on Discord and shared our work. The energy was electric, and I was floored by the group's talent and creativity. I hope you enjoy browsing through everyone's creations!
     </p>
     <p style={{ textAlign: 'right' }}>
-      -- Pattra<br/>
+      Thanks for reading,<br/>
+      Pattra<br/>
       Jan. 21 2024
     </p>
   </>

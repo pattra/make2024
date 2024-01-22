@@ -108,7 +108,23 @@ button:focus-visible {
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 812px) {
-    body {
-      overflow: hidden;
+    button {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #1a1a1a;
+      cursor: pointer;
+      color: white;
+      transition: border-color 0.25s;
+
+      /* Corrects font smoothing for webkit */
+      -webkit-font-smoothing: inherit;
+      -moz-osx-font-smoothing: inherit;
+
+      /* Corrects inability to style clickable `input` types in iOS */
+      -webkit-appearance: none;
     }
 }

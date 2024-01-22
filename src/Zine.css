@@ -12,6 +12,9 @@
   and (max-device-width: 812px) {
     .container {
       flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding: 16px 0;
     }
 
     .desktop-sidebar-display {

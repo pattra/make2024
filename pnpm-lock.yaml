@@ -11,6 +11,9 @@ dependencies:
   react-codepen-embed:
     specifier: ^1.1.0
     version: 1.1.0(react@18.2.0)
+  react-div-100vh:
+    specifier: ^0.7.0
+    version: 0.7.0(react@18.2.0)
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
@@ -1883,6 +1886,14 @@ packages:
       react: ^16.8.0
     dependencies:
       prop-types: 15.8.1
+      react: 18.2.0
+    dev: false
+
+  /react-div-100vh@0.7.0(react@18.2.0):
+    resolution: {integrity: sha512-I3d77tQyaSlOx/6vurDDLk7upb5GA2ldEtVXkk7Kn5cy+tLlS0KlqDK14xUxlxh7jz4StjgKcwFyrpymsPpomA==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
       react: 18.2.0
     dev: false
 

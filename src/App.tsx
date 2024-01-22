@@ -1,5 +1,6 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import Div100vh from 'react-div-100vh';
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   }, [location, displayLocation]);
 
   return (
-    <>
+    <Div100vh>
       <div className={`splash ${transitionStage}`} onAnimationEnd={() => {
         if (transitionStage === "fadeOut") {
           setTransistionStage("fadeIn");
@@ -34,7 +35,7 @@ function App() {
           </button>
         </div>
       </div>
-    </>
+    </Div100vh>
   )
 }
 

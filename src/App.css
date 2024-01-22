@@ -16,12 +16,23 @@
   margin-top: 16px;
 }
 
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 812px) {
     #root {
       width: 100%;
       padding: 16px;
+    }
+
+    .splash {
+      height: 90%;
     }
 
     .splash-title {

@@ -4,6 +4,7 @@ import './Zine.css'
 import Sidebar from './components/Sidebar';
 import MobileSidebar from './components/MobileSidebar';
 import Body from './components/Body';
+import Div100vh from 'react-div-100vh';
 
 function Zine() {
   const location = useLocation();
@@ -14,7 +15,7 @@ function Zine() {
 
   useEffect(() => {
     if (location !== displayLocation) setTransistionStage("fadeOut");
-    
+
     const bodyEl = document.querySelector('#zine-body');
     bodyEl?.scrollTo(0, 0)
   }, [location, displayLocation]);
@@ -23,13 +24,13 @@ function Zine() {
   let idToUse;
   if (extractedId !== 'zine') {
     idToUse = extractedId;
-  } 
+  }
 
   return (
-    <>
+    <Div100vh>
       <div className="container">
         <div className="desktop-sidebar-display"><Sidebar /></div>
-        <div className={`container ${transitionStage}`}
+        <div className={transitionStage}
           onAnimationEnd={() => {
             if (transitionStage === "fadeOut") {
               setTransistionStage("fadeIn");
@@ -46,7 +47,7 @@ function Zine() {
           <MobileSidebar mobileTocOpen={mobileTocOpen} onTocToggle={setMobileTocOpen} />
         </div>
       </div>
-    </>
+    </Div100vh>
   )
 }
 
