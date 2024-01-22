@@ -8,10 +8,7 @@ function PostPattDanTheo() {
     <div>
       <h3>Dan, Pattra, & Theo: A text-based adventure game</h3>
       <p>
-        <i>Editor's Note:</i> Dan, Theo, and I have always individually had deep fascinations with making video games. For this make-a-thon, in "classic fashion," we decided to band together, be extremely ambitious, and bite off way more than we could chew.
-      </p>
-      <p>
-        Dan & I wanted to make a text adventure (but with graphics and music, lol) where the player must keep a journal. We started thinking about ship's logs, and then came up with the idea of an eldritch mystery on the high seas. We wanted a world with characters who had their own agendas--where if you go through life day by day, they will change the course of the world's history with or without you. Theo then graciously lent us his musical talents to help bring this world to life.
+        <i>Editor's Note:</i> We have always been fascinated by making video games. Dan & I wanted to make a text adventure with a journaling mechanic, then came up with the idea of keeping a ship's log while investigating an eldritch mystery on the high seas. We wanted to create an engaging world with characters who will change the story with or without you.
       </p>
       <p>
         With <a href="https://github.com/dfreeman">Dan</a> crafting the engine, <a href="https://pattra.io">me</a> writing the script, and <a href="https://treehann.bandcamp.com">Theo</a> composing the soundtrack, we had ourselves an unstoppable team.
