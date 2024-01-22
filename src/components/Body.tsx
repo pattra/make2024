@@ -20,9 +20,7 @@ function Body({ artistId, mobileTocOpen }: { artistId: string, mobileTocOpen: bo
   return (
     <>
       <div id="zine-body" className="body">
-        <div className="post-container">
         <PostComponent />
-        </div>
       </div>
     </>
   )

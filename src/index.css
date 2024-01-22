@@ -3,6 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
+  background-color: rgb(174, 243, 183);
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-image: linear-gradient(to bottom right, rgb(130, 221, 142), rgb(9, 87, 70));
@@ -20,6 +22,7 @@ a {
   color: #068349;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #ffffff;
 }
@@ -60,16 +63,19 @@ button {
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
 }
+
 .button-active {
   border-color: #068349;
   background-color: rgba(255, 255, 255, 0.8);
   color: #068349;
 }
+
 button:hover {
   border-color: #068349;
   background-color: rgba(255, 255, 255, 0.8);
   color: #068349;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -88,6 +94,7 @@ button:focus-visible {
     opacity: 0;
     transform: translate(-20px, 0);
   }
+
   to {
     opacity: 1;
     transform: translate(0px, 0px);
@@ -99,32 +106,31 @@ button:focus-visible {
     opacity: 1;
     transform: translate(0px, 0px);
   }
+
   to {
     transform: translate(-20px, 0);
     opacity: 0;
   }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 812px) {
-    button {
-      border-radius: 8px;
-      border: 1px solid transparent;
-      padding: 0.6em 1.2em;
-      font-size: 1em;
-      font-weight: 500;
-      font-family: inherit;
-      background-color: #1a1a1a;
-      cursor: pointer;
-      color: white;
-      transition: border-color 0.25s;
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    color: white;
+    transition: border-color 0.25s;
 
-      /* Corrects font smoothing for webkit */
-      -webkit-font-smoothing: inherit;
-      -moz-osx-font-smoothing: inherit;
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
 
-      /* Corrects inability to style clickable `input` types in iOS */
-      -webkit-appearance: none;
-    }
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+  }
 }

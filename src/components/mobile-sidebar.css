@@ -1,6 +1,7 @@
 .mobile-sidebar {
+  box-sizing: border-box;
   display: flex;
   width: 60%;
   justify-content: space-around;
-  margin: 16px auto;
+  margin: 16px auto 64px auto;
 }
