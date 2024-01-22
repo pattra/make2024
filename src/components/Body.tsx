@@ -12,7 +12,7 @@ function Body({ artistId, mobileTocOpen }: { artistId: string, mobileTocOpen: bo
       const artistIndex = artists.findIndex(artist => {
         return artist.id === artistId;
       });
-    
+
       PostComponent = artists[artistIndex]?.component;
     }
   }

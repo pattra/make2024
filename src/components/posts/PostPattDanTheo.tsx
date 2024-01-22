@@ -11,7 +11,7 @@ function PostPattDanTheo() {
         <i>Editor's Note:</i> Dan, Theo, and I have always individually had deep fascinations with making video games. For this make-a-thon, in "classic fashion," we decided to band together, be extremely ambitious, and bite off way more than we could chew.
       </p>
       <p>
-        Dan & I wanted to make a text adventure (but with graphics and music, lol) where the main character has to keep a journal. We immediately started thinking about ship's logs, and came up with the idea of an eldritch mystery upon the high seas. We wanted a world with characters who had their own agendas--where if you go through life day by day, they will change the course of the world's history with or without you. Theo then graciously lent us his musical talents to help bring this world to life.
+        Dan & I wanted to make a text adventure (but with graphics and music, lol) where the player must keep a journal. We started thinking about ship's logs, and then came up with the idea of an eldritch mystery on the high seas. We wanted a world with characters who had their own agendas--where if you go through life day by day, they will change the course of the world's history with or without you. Theo then graciously lent us his musical talents to help bring this world to life.
       </p>
       <p>
         With <a href="https://github.com/dfreeman">Dan</a> crafting the engine, <a href="https://pattra.io">me</a> writing the script, and <a href="https://treehann.bandcamp.com">Theo</a> composing the soundtrack, we had ourselves an unstoppable team.
@@ -31,12 +31,11 @@ function PostPattDanTheo() {
           <source src={seaSong} type="audio/mp3" />
           Your browser does not support the audio element.
         </audio><br />
-
         One of the loops Theo created. Check out the rest of the OST in game!
       </p>
       <p>
         <img className="image-container" src={img01} /><br />
-        A wild and free FigJam board. Where the magic happens...
+        A screenshot of the FigJam board we used to plan and brainstorm ideas.
       </p>
       <p>
         You can check out the source code here: <a href="https://github.com/dfreeman/new-leaf">https://github.com/dfreeman/new-leaf</a>
