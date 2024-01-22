@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.mobile-sidebar-display {
+  display: none;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .desktop-sidebar-display {
+      display: none;
+    }
+
+    .mobile-sidebar-display {
+      display: block;
+    }
+}

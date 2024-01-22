@@ -1,0 +1,6 @@
+.mobile-sidebar {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin: 8px auto;
+}

@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: -32px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) {
+    #root {
+      width: 100%;
+      padding: 0;
+    }
+
+    .splash-title {
+      font-size: 1em;
+    }
+
+    .card {
+      width: 90%;
+      padding: 16px;
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+}
