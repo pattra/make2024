@@ -9,7 +9,7 @@ function PostKatryn() {
         <i>Editor's Note:</i> To me, Katryn is equal parts a creative and technological mastermind. I'm crazy lucky to know someone who is so singularly determined, smart, and creative; she really inspires me every day! Less rotting, more making!!
       </p>
       <p>
-        For this make-a-thon Katryn created a neat CSS animation inspired by photosynthesis.
+        For this make-a-thon, Katryn (<a href="https://github.com/katrynmc">@katrynmc</a>) created a neat CSS animation inspired by photosynthesis.
       </p>
       <p>
         Check out her <a href="https://codepen.io/katrynmc/full/ZEPLzoM">CodePen</a> for the source & a full-screen view. Embedded preview below:
