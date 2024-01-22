@@ -52,6 +52,13 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
 }
 .button-active {
   border-color: #068349;
@@ -103,6 +110,5 @@ button:focus-visible {
   and (max-device-width: 812px) {
     body {
       overflow: hidden;
-      place-items: inherit;
     }
 }
