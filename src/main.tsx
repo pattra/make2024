@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import NotFound from './NotFound.tsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/zine/:id",
     element: <Zine />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   }
 ], { basename: '/make2024' });
 
