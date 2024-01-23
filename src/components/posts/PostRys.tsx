@@ -1,4 +1,4 @@
-import img01 from '../../assets/submissions/rys/01.png';
+import final from '../../assets/submissions/rys/final.mp4';
 import '../body.css';
 
 function PostRys() {
@@ -13,12 +13,10 @@ function PostRys() {
       </p>
     </div>
     <div className='content-section'>
-      <h3>
-        You can view the full animation on <a href="https://www.youtube.com/watch?v=fU5rD4XcIA4">YouTube</a>!
-      </h3>
-      <p>
-        <img className="image-container" src={img01} />
-      </p>
+      <video className="video-container" controls>
+        <source src={final} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   </>
   );
