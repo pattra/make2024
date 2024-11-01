@@ -18,7 +18,7 @@ function Sidebar() {
     return (
       <button
         className={isActive ? 'button-active' : ''}
-        style={{width: '100%', marginBottom: '4px'}}
+        style={{width: '100%', marginBottom: '4px', color: 'white'}}
         onClick={() => navigate(path)}
         key={`sidebar-item-${i}`}
       >
